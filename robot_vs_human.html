@@ -138,7 +138,7 @@
 			   		(but4.value==='O' && but5.value==='O' && but6.value==='O') ||
 			   		(but7.value==='O' && but8.value==='O' && but9.value==='O'))
 			{
-				plname.innerText='COMPUTER WINS';
+				plname.innerText='ROBOT WINS';
 				again();
 			}
 			else if((but1.value==='X'||but1.value==='O')&&(but2.value==='X'||but2.value==='O')&&
@@ -265,11 +265,11 @@
 				}
 			}
 		}
-		function computer()
+		function robot()
 		{	let plno=plname.innerText;
 			let num=comp[Math.floor(Math.random() * comp.length)];
 			console.log(num);
-			if(plno==='---COMPUTER---')
+			if(plno==='---ROBOT---')
 			{
 				if(((but2.value==='O'&&but3.value==='O')
 				   ||(but5.value==='O'&&but9.value==='O')
@@ -515,8 +515,8 @@
 				if(but1.value==='')
 				{
 					but1.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -533,8 +533,8 @@
 				if(but2.value==='')
 				{
 					but2.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -552,8 +552,8 @@
 				if(but3.value==='')
 				{
 					but3.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -571,8 +571,8 @@
 				if(but4.value==='')
 				{
 					but4.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -590,8 +590,8 @@
 				if(but5.value==='')
 				{
 					but5.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -609,8 +609,8 @@
 				if(but6.value==='')
 				{
 					but6.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -628,8 +628,8 @@
 				if(but7.value==='')
 				{
 					but7.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -647,8 +647,8 @@
 				if(but8.value==='')
 				{
 					but8.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
@@ -666,8 +666,8 @@
 				if(but9.value==='')
 				{
 					but9.value='X';
-					plname.innerText='---COMPUTER---';
-					setTimeout(computer,2000);
+					plname.innerText='---ROBOT---';
+					setTimeout(robot,2000);
 					win();
 				}
 				else
