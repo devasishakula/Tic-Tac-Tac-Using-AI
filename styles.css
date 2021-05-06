@@ -1,0 +1,170 @@
+#box
+{
+	background:linear-gradient(45deg,orange,blue,cyan);
+	height:470px;
+	width: 300px;
+	padding: 40px;
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 30px;
+	box-shadow: 0 0 15px red;
+}
+body
+{
+	background-image:url('tictactoe.png');
+	background-color: rgba(0,0,0,0.2);
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-size: cover;
+}
+table
+{
+	border:2px solid red;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+h1
+{
+	margin:0px;
+	color:red;
+	background:linear-gradient(45deg,blue,cyan,white,navy,red,coral);
+	padding: 20px;
+	text-align: center;
+	font-family: Arial;
+	border-radius: 20px;
+	text-shadow: 0 0 20px orange;
+}
+.btns
+{
+	padding: 10px;
+	height: 60px;
+	width: 50px;
+	background-color: cyan;
+	border-radius: 5px;
+	border:1px solid red;
+	outline: none;
+	font-size: 30px;
+	font-family: 'Ballet', cursive;
+	font-weight: bold;
+	color: red;
+}
+#startbox
+{
+	background-color: orange;
+	text-align: center;
+	padding: 60px;
+	height:130px;
+	width:320px;
+	margin:130px auto;
+	border-radius: 20px;
+	box-shadow: 0 0 15px red;
+	font-family: Arial;
+}
+#playerbox
+{
+	margin:0px;
+	padding: 5px;
+	color: blue;
+	background-color: orange;
+	border-radius: 20px;
+	box-shadow: 0 0 20px red;
+	font-family: "Lucida Console","Courier New monospace";
+}
+#clear
+{
+	width: 130px;
+	outline: none;
+	border: 1px solid red;
+	border-radius: 20px;
+	box-shadow: 0 0 20px blue;
+	background-color: lime;
+	color:red;
+	height:43px;
+	font-weight: bold;
+	font-family: "Lucida Console","Courier New monospace";
+	font-size: 20px;
+	display: inline;
+}
+#tb
+{
+	width:inherit;
+	border: none;
+}
+#mm
+{
+	text-align: center;
+	padding-top: 10px;
+	width:150px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Lucida Console","Courier New monospace";
+	font-size: 20px;
+	height: 30px;
+	border: 1px solid red;
+	border-radius: 20px;
+	box-shadow: 0 0 20px blue;
+	background-color: lime;
+	color:red;
+	display: block;
+}
+#restarting
+{
+	color:white;
+	font-family: "Lucida Console","Courier New monospace";
+	text-shadow: 0 0 10px orange;
+}
+.strt
+{
+	background-color: lime;
+	width:300px;
+	height:40px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px blue;
+	outline: none;
+	border:1px solid red;
+	color: red;
+	font-family: "Lucida Console","Courier New monospace";
+	font-size: 25px;
+	margin-top: 5px;
+	display: block;
+	text-decoration: none;
+}
+#startbox:hover
+{
+	background-color: violet;
+}
+.strt:hover
+{
+	color: blue;
+	background-color: orange;
+}
+h1:hover
+{
+	background: linear-gradient(45deg,red,green,lime,white,blue);
+	color:blue;
+	text-shadow: 0 0 20px red;
+}
+#box:hover
+{
+	background:linear-gradient(45deg,cyan,blue,orange);
+}
+#playerbox:hover
+{
+	color:orange;
+	background-color: blue;
+}
+.btns:hover
+{
+	background-color: red;
+	color: cyan;
+}
+#li
+{
+	margin-right: 10px;
+	color:blue;
+}
+#li:hover
+{
+	color:red;
+}
